@@ -7,7 +7,7 @@ End-to-end manual testing of HamSafar, a ride-sharing (carpooling) mobile app fo
 The artifacts connect into one testing workflow:
 
 ```
-Team chat → Derived requirements → Checklists & test cases → Bug reports → Evidence → Traceability
+Derived requirements → Checklists & test cases → Bug reports → Evidence → Traceability
 ```
 ## About the app
 
@@ -34,7 +34,7 @@ mobile-app-testing-hamsafar/
 │
 ├── README.md
 │
-├── docs/
+├── requirements-docs/
 │   ├── app-overview.md
 │   ├── requirements-derived.md
 │   ├── open-questions.md
@@ -48,28 +48,28 @@ mobile-app-testing-hamsafar/
 ├── test-cases/
 ├── bug-reports/
 ├── exploratory-testing/
-├── smoke-testing/
-├── regression-testing/
+├── smoke-test-suite.md
+├── regression-suite.md
 ├── push-notifications/
-├── device-testing/
-├── testflight/
-└── evidence/
+├── device-coverage-matrix.md
+├── testflight-notes.md
+└── screenshots/
 ```
 
 ## What's Inside
 
-* [requirements-docs/](https://github.com/MaryPavlenko/mobile-app-testing-hamsafar/tree/main/docs) — reconstructed app logic, requirements derived from team communication, open questions, and the improvements backlog.
+* [requirements-docs/](https://github.com/MaryPavlenko/mobile-app-testing-hamsafar/tree/main/requirements-docs) — reconstructed app logic, requirements derived from team communication, open questions, and the improvements backlog.
 * [test-design/](https://github.com/MaryPavlenko/mobile-app-testing-hamsafar/tree/main/test-design) — test strategy (scope, approach, environments, access constraints) and the traceability matrix.
 * [checklists/](https://github.com/MaryPavlenko/mobile-app-testing-hamsafar/tree/main/checklists) — 10 module checklists with positive and negative scenarios.
 * [test-cases/](https://github.com/MaryPavlenko/mobile-app-testing-hamsafar/tree/main/test-cases) — detailed test cases for critical paths, including boundary and negative cases.
 * [bug-reports/](https://github.com/MaryPavlenko/mobile-app-testing-hamsafar/tree/main/bug-reports) — defect reports organized by module, with a triaged index and a report template.
 * [exploratory-testing/](https://github.com/MaryPavlenko/mobile-app-testing-hamsafar/tree/main/exploratory-testing) — session-based testing charters and findings.
-* [smoke-testing/](https://github.com/MaryPavlenko/mobile-app-testing-hamsafar/tree/main/smoke-testing) — smoke suite run after each build.
-* [regression-testing/](https://github.com/MaryPavlenko/mobile-app-testing-hamsafar/tree/main/regression-testing) — targeted regression suite tied to fixed defects.
+* [smoke-testing/](https://github.com/MaryPavlenko/mobile-app-testing-hamsafar/tree/main/smoke-test-suite.md) — smoke suite run after each build.
+* [regression-testing/](https://github.com/MaryPavlenko/mobile-app-testing-hamsafar/tree/main/regression-suite.md) — targeted regression suite tied to fixed defects.
 * [push-notifications/](https://github.com/MaryPavlenko/mobile-app-testing-hamsafar/tree/main/push-notifications) — push notification test notes and access limitations.
-* [device-testing/](https://github.com/MaryPavlenko/mobile-app-testing-hamsafar/tree/main/device-testing) — real-device coverage matrix for iOS and Android.
-* [testflight/](https://github.com/MaryPavlenko/mobile-app-testing-hamsafar/tree/main/testflight) — TestFlight setup, build tracking, and log capture.
-* [evidence/](https://github.com/MaryPavlenko/mobile-app-testing-hamsafar/tree/main/evidence) — screenshots and the [bug-to-screenshot map](https://github.com/MaryPavlenko/mobile-app-testing-hamsafar/blob/main/evidence/screenshot-map.md).
+* [device-testing/](https://github.com/MaryPavlenko/mobile-app-testing-hamsafar/tree/main/device-coverage-matrix.md) — real-device coverage matrix for iOS and Android.
+* [testflight/](https://github.com/MaryPavlenko/mobile-app-testing-hamsafar/tree/main/testflight-notes.md) — TestFlight setup, build tracking, and log capture.
+* [screenshots/](https://github.com/MaryPavlenko/mobile-app-testing-hamsafar/tree/main/screenshots) — screenshots and the [bug-to-screenshot map](https://github.com/MaryPavlenko/mobile-app-testing-hamsafar/blob/main/screenshots/evidence.md).
 
 ## Tools
 
