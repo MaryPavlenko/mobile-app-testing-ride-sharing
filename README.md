@@ -1,4 +1,8 @@
 # Mobile App Testing [HamSafar]
+[![Platform](https://img.shields.io/badge/platform-iOS%20%7C%20Android-informational)]()
+[![Artifacts](https://img.shields.io/badge/artifacts-checklists%20%7C%20test%20cases%20%7C%20bug%20reports-orange)]()
+[![Tools](https://img.shields.io/badge/tools-TestFlight%20%7C%20Taiga-lightgrey)]()
+[![Defects](https://img.shields.io/badge/defects%20reported-74-red)]()
 
 ## Overview
 
