@@ -1,0 +1,8 @@
+# macOS
+.DS_Store
+
+# Audio/Video
+*.mp3
+*.m4a
+*.mp4
+*.wav
