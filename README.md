@@ -27,35 +27,6 @@ Manual QA on a distributed team, testing iOS builds through TestFlight and Andro
 
 Most testers had access only to the TestFlight build, with no admin panel, API, or database. This shaped what could be tested and is documented in the [test strategy](test-design/test-strategy.md).
 
-## Repository Structure
-
-```
-mobile-app-testing-hamsafar/
-│
-├── README.md
-│
-├── requirements-docs/
-│   ├── app-overview.md
-│   ├── requirements-derived.md
-│   ├── open-questions.md
-│   └── improvements-backlog.md
-│
-├── test-design/
-│   ├── test-strategy.md
-│   └── traceability-matrix.md
-│
-├── checklists/
-├── test-cases/
-├── bug-reports/
-├── exploratory-testing/
-├── smoke-test-suite.md
-├── regression-suite.md
-├── push-notifications/
-├── device-coverage-matrix.md
-├── testflight-notes.md
-└── screenshots/
-```
-
 ## What's Inside
 
 * [requirements-docs/](https://github.com/MaryPavlenko/mobile-app-testing-hamsafar/tree/main/requirements-docs) — reconstructed app logic, requirements derived from team communication, open questions, and the improvements backlog.
