@@ -33,18 +33,18 @@ Most testers had access only to the TestFlight build, with no admin panel, API, 
 
 ## What's Inside
 
-* [requirements-docs/](https://github.com/MaryPavlenko/mobile-app-testing-hamsafar/tree/main/requirements-docs) — reconstructed app logic, requirements derived from team communication, open questions, and the improvements backlog.
-* [test-design/](https://github.com/MaryPavlenko/mobile-app-testing-hamsafar/tree/main/test-design) — test strategy (scope, approach, environments, access constraints) and the traceability matrix.
-* [checklists/](https://github.com/MaryPavlenko/mobile-app-testing-hamsafar/tree/main/checklists) — 10 module checklists with positive and negative scenarios.
-* [test-cases/](https://github.com/MaryPavlenko/mobile-app-testing-hamsafar/tree/main/test-cases) — detailed test cases for critical paths, including boundary and negative cases.
-* [bug-reports/](https://github.com/MaryPavlenko/mobile-app-testing-hamsafar/tree/main/bug-reports) — defect reports organized by module, with a triaged index and a report template.
-* [exploratory-testing/](https://github.com/MaryPavlenko/mobile-app-testing-hamsafar/tree/main/exploratory-testing) — session-based testing charters and findings.
-* [smoke-testing/](https://github.com/MaryPavlenko/mobile-app-testing-hamsafar/tree/main/smoke-test-suite.md) — smoke suite run after each build.
-* [regression-testing/](https://github.com/MaryPavlenko/mobile-app-testing-hamsafar/tree/main/regression-suite.md) — targeted regression suite tied to fixed defects.
-* [push-notifications/](https://github.com/MaryPavlenko/mobile-app-testing-hamsafar/tree/main/push-notifications) — push notification test notes and access limitations.
-* [device-testing/](https://github.com/MaryPavlenko/mobile-app-testing-hamsafar/tree/main/device-coverage-matrix.md) — real-device coverage matrix for iOS and Android.
-* [testflight/](https://github.com/MaryPavlenko/mobile-app-testing-hamsafar/tree/main/testflight-notes.md) — TestFlight setup, build tracking, and log capture.
-* [screenshots/](https://github.com/MaryPavlenko/mobile-app-testing-hamsafar/tree/main/screenshots) — screenshots and the [bug-to-screenshot map](https://github.com/MaryPavlenko/mobile-app-testing-hamsafar/blob/main/screenshots/evidence.md).
+* [requirements-docs/](https://github.com/MaryPavlenko/mobile-app-testing-ride-sharing/tree/main/requirements-docs) — reconstructed app logic, requirements derived from team communication, open questions, and the improvements backlog.
+* [test-design/](https://github.com/MaryPavlenko/mobile-app-testing-ride-sharing/tree/main/test-design) — test strategy (scope, approach, environments, access constraints) and the traceability matrix.
+* [checklists/](https://github.com/MaryPavlenko/mobile-app-testing-ride-sharing/tree/main/checklists) — 10 module checklists with positive and negative scenarios.
+* [test-cases/](https://github.com/MaryPavlenko/mobile-app-testing-ride-sharing/tree/main/test-cases) — detailed test cases for critical paths, including boundary and negative cases.
+* [bug-reports/](https://github.com/MaryPavlenko/mobile-app-testing-ride-sharing/tree/main/bug-reports) — defect reports organized by module, with a triaged index and a report template.
+* [exploratory-testing/](https://github.com/MaryPavlenko/mobile-app-testing-ride-sharing/tree/main/exploratory-testing) — session-based testing charters and findings.
+* [smoke-testing/](https://github.com/MaryPavlenko/mobile-app-testing-ride-sharing/tree/main/smoke-test-suite.md) — smoke suite run after each build.
+* [regression-testing/](https://github.com/MaryPavlenko/mobile-app-testing-ride-sharing/tree/main/regression-suite.md) — targeted regression suite tied to fixed defects.
+* [push-notifications/](https://github.com/MaryPavlenko/mobile-app-testing-ride-sharing/tree/main/push-notifications) — push notification test notes and access limitations.
+* [device-testing/](https://github.com/MaryPavlenko/mobile-app-testing-ride-sharing/tree/main/device-coverage-matrix.md) — real-device coverage matrix for iOS and Android.
+* [testflight/](https://github.com/MaryPavlenko/mobile-app-testing-ride-sharing/tree/main/testflight-notes.md) — TestFlight setup, build tracking, and log capture.
+* [screenshots/](https://github.com/MaryPavlenko/mobile-app-testing-ride-sharing/tree/main/screenshots) — screenshots and the [bug-to-screenshot map](https://github.com/MaryPavlenko/mobile-app-testing-ride-sharing/blob/main/screenshots/evidence.md).
 
 ## Tools
 
